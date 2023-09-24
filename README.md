@@ -1,28 +1,36 @@
-# React + TypeScript + Vite
+## Retro 3D Sky with Pixelated Stars
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project merges the charm of retro, pixelated graphics with the modern 3D canvas capabilities using `react-three-fiber`. Bringing together pixel art stars and a 3D environment provides a unique visual experience that's reminiscent of old-school games, but with a fresh twist.
 
-Currently, two official plugins are available:
+### Features:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Pixel Stars**: Each star in the sky isn't just a dot—it's a pixel artwork. The stars have frame-by-frame animations, a nod to classic pixel-based games.
+  
+- **Shooting Stars**: A different take on shooting stars. Instead of moving across the screen, they play a brief pixel art animation, making them appear and then fade, mimicking the transient nature of shooting stars in the real sky.
 
-## Expanding the ESLint configuration
+- **Sky Rotation**: The entire sky subtly rotates, adding depth and movement to the 3D environment.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Technical Details:
 
-- Configure the top-level `parserOptions` property like this:
+1. **Pixel Star Animation**: `@react-three/drei` is utilized for texture loading, with the animations handled by `gsap`.
+  
+2. **Shooting Star Effect**: This is achieved by manipulating opacity. The pixel art shooting star briefly becomes visible, then fades.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+3. **Initial Background Transition**: The default white background smoothly transitions to a darker blue when the canvas loads. This transition is a one-off event at the beginning, facilitated by `chroma-js`.
+
+### Used Libraries:
+
+- `react-three-fiber`: For 3D environment setup.
+- `@react-three/drei`: Utilities like texture loading.
+- `gsap`: Manages animations.
+- `chroma-js`: Handles the initial background color transition.
+- `math-random`: Generates random numbers for star placement.
+
+### Setup:
+
+```bash
+npm install
+npm start
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-# PIxelatedNightSky
+Check it out, and enjoy this blend of retro and modern design.
