@@ -2,6 +2,7 @@
 
 This project merges the charm of retro, pixelated graphics with the modern 3D canvas capabilities using `react-three-fiber`. Bringing together pixel art stars and a 3D environment provides a unique visual experience that's reminiscent of old-school games, but with a fresh twist.
 
+This project was developed in collaboration with @lunovill.
 [Screencast from 09-24-2023 05:02:23 AM.webm](https://github.com/pandamanxv3/PIxelatedNightSky/assets/92925204/c2d927b6-36a4-481e-805a-0de466921f22)
 
 ### Live Preview:
