@@ -4,6 +4,10 @@ This project merges the charm of retro, pixelated graphics with the modern 3D ca
 
 [Screencast from 09-24-2023 05:02:23 AM.webm](https://github.com/pandamanxv3/PIxelatedNightSky/assets/92925204/c2d927b6-36a4-481e-805a-0de466921f22)
 
+### Live Preview:
+
+Experience the pixelated night sky for yourself. View the [live demo on CodeSandbox](https://codesandbox.io/p/sandbox/github/pandamanxv3/PIxelatedNightSky).
+
 ### Features:
 
 - **Pixel Stars**: Each star in the sky isn't just a dot—it's a pixel artwork. The stars have frame-by-frame animations, a nod to classic pixel-based games.
@@ -34,5 +38,9 @@ This project merges the charm of retro, pixelated graphics with the modern 3D ca
 npm install
 npm start
 ```
+---
+To see this in action, check out the [live demo on CodeSandbox](https://codesandbox.io/p/sandbox/github/pandamanxv3/PIxelatedNightSky).
+---
+Check it out, and enjoy this blend of retro and modern design!
 
-Check it out, and enjoy this blend of retro and modern design.
+SandBox: https://codesandbox.io/p/sandbox/github/pandamanxv3/PIxelatedNightSky
