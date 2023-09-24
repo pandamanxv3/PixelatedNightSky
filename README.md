@@ -41,9 +41,5 @@ Experience the pixelated night sky for yourself. View the [live demo on CodeSand
 npm install
 npm start
 ```
----
-To see this in action, check out the [live demo on CodeSandbox](https://codesandbox.io/p/sandbox/github/pandamanxv3/PIxelatedNightSky).
----
-Check it out, and enjoy this blend of retro and modern design!
 
-SandBox: https://codesandbox.io/p/sandbox/github/pandamanxv3/PIxelatedNightSky
+Check it out, and enjoy this blend of retro and modern design!
