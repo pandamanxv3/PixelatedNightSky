@@ -9,7 +9,7 @@ This project merges the charm of retro, pixelated graphics with the modern 3D ca
 
 ### Live Preview:
 
-Experience the pixelated night sky for yourself. View the [live demo on CodeSandbox](https://codesandbox.io/p/sandbox/github/pandamanxv3/PIxelatedNightSky).
+Experience the pixelated night sky for yourself. View the [live demo](https://pixelated-night-sky.vercel.app/).
 
 ### Features:
 
