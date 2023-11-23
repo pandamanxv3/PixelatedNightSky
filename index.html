@@ -1,7 +1,35 @@
 <!doctype html>
 <html lang="en">
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+
+<head>
+	<title>Pixelated NightSky</title>
+	<style>
+		@font-face {
+			font-family: 'Alagard';
+			src: url('font/alagard.ttf') format('truetype');
+		}
+
+		body,
+		html {
+			height: 100%;
+			margin: 0;
+			font-size: 84px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-family: 'Alagard', sans-serif;
+			color: rgb(221, 138, 117);
+		}
+	</style>
+
+<body>
+	<div id="root"></div>
+	<div style="text-align: center;">
+		<span style="font-size: 64px; color:rgb(189, 133, 59)">Pixelated</span>
+		<br />
+		NightSky
+	</div>
+	<script type="module" src="/src/main.tsx"></script>
+</body>
+
 </html>

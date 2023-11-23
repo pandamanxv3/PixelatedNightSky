@@ -56,7 +56,7 @@ function App() {
 			camera={{ position: [0, 0, 1] }}
 			className="canvas"
 			style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
-		>
+			>
 			<BackGroundAnimation />
 		</Canvas>
 	);
